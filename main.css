@@ -123,6 +123,9 @@ h5 {
   z-index: 1;
   position: absolute;
 }
+.card-info article {
+  text-align: left;
+}
 @media (max-width: 700px) {
   .card-info, .product-card article {
     height: auto;
