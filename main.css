@@ -13,35 +13,95 @@ body {
 }
 h2 {
   color: goldenrod;
-  text-shadow: rgb(126, 96, 21) 1px 2px;
+  text-shadow: rgb(126, 96, 21) 1px 1px;
   font-size: 20em;
 }
 p {
   color: goldenrod;
-  text-shadow: rgb(126, 96, 21) 1px 2px;
+  text-shadow: rgb(126, 96, 21) 1px 1px;
   font-size: 5em;
 }
 .card-container {
   border: 2px solid blue;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-flow: row wrap;
   width: 90%;
   padding: 5em;
   margin: 2em;
 
 }
 .product-card {
-  padding: 2em;
-  width: 40em;
-  height: 50em;
+  margin: 5em;
+  flex: 1 0 25%;
+  flex-direction: column;
+  width: 60em;
+  height: 60em;
   border: 2px red solid;
 
 }
 .product-card p {
-  font-size: 2em;
+  font-size: 3em;
 }
-.card-image {
+.card-image img {
+  margin: 0 0 1em 0;
   border: 1px solid blue;
-  width: 50%;
+  width: 20em;
+  height: 20em;
+}
+.product-card h2 {
+  border-bottom: 1px lightblue solid;
+  color: cadetblue;
+  margin: .5em 0;
+  font-size: 3em;
+}
+.product-card article {
+  margin: 0 1em;
+  font-size: 1.4em;
+}
+.product-card p {
+  text-shadow: none;
+  color: black;
+  font-size: 1.5em;
+  margin: .25em;
+}
+.card-availability p {
+  background-color: darkgrey;
+  color: yellow;
+  font-size: 2em;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+h4 {
+  margin: .25em;
+  font-size: 1.5em;
+}
+.card-specs {
+  display: flex;
+  flex-flow:column wrap;
+  justify-content: center;
+}
+.card-specs footer p {
+  color: rgb(179, 48, 59);
+  font-size: 1.3em;
+}
+.card-specs div {
+  flex-direction: column;
+  align-self: center;
+}
+.card-pricing {
+  margin: 0%;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h5 {
+  margin: 1em 0 0.5em;
+}
+.card-pricing {
+  padding: 1em;
+  margin: 0;
+  height: 3em;
 }
