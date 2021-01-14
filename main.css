@@ -119,3 +119,7 @@ h5 {
   font-weight: 400;
   margin: .25em 0 0.5em;
 }
+.sold-out {
+  z-index: 1;
+  position: absolute;
+}
