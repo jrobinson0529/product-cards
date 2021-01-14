@@ -123,6 +123,13 @@ h5 {
   z-index: 1;
   position: absolute;
 }
+.card-info article {
+  text-align: left;
+  animation-name: justify-text;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
 @media (max-width: 700px) {
   .card-info, .product-card article {
     height: auto;
@@ -162,4 +169,10 @@ h5 {
   .sold-out {
     flex: 1 10%;
   }
+}
+@keyframes justify-text {
+  0% {text-align: left;}
+  50% {text-align: center;}
+  75% {text-align: right;}
+  100% {text-align: left;}
 }
