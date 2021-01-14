@@ -1,6 +1,47 @@
 html {
+  text-align: center;
   background-color: bisque;
   font-size: 10px;
   margin: 0;
   padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: goldenrod;
+  text-shadow: rgb(126, 96, 21) 1px 2px;
+  font-size: 20em;
+}
+p {
+  color: goldenrod;
+  text-shadow: rgb(126, 96, 21) 1px 2px;
+  font-size: 5em;
+}
+.card-container {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 90%;
+  padding: 5em;
+  margin: 2em;
+
+}
+.product-card {
+  padding: 2em;
+  width: 40em;
+  height: 50em;
+  border: 2px red solid;
+
+}
+.product-card p {
+  font-size: 2em;
+}
+.card-image {
+  border: 1px solid blue;
+  width: 50%;
 }
